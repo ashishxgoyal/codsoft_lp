@@ -1,0 +1,231 @@
+/* Reset some default browser styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBB195;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+    background-image: url('q.jpg');
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* Optional: Use this property to make the background fixed */
+      
+      
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #030001;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.products {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+/* Style the "Hero" section */
+/* Style the "Hero" section */
+/* Style the "Hero" section */
+/* Style the "Hero" section */uj
+.hero {
+    background-image: url('xyz.jpeg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    display: flex; /* Use flexbox to create a two-column layout */
+    justify-content: center; /* Horizontally center-align content */
+    align-items: center; /* Vertically center-align content */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style the image to make it smaller */
+.hero-image img {
+    max-width: 450px; /* Adjust the maximum width to make the image smaller */
+    height: 300px; /* Maintain the image's aspect ratio */
+    margin-left: 120%; /* Add some spacing between the text and image */
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Style the "Features" section */
+.features {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #C06C84;
+    background-image: url('23.jpg');
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
+}
+
+.feature {
+    margin: 20px;
+}
+
+.feature img {
+    width: 190px;
+    height: 100px;
+}
+
+/* Style the "Pricing" section */
+.pricing {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #6C5B7B;
+    background-image: url('abc.jpg');
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
+}
+
+.price-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    background-color: #fff;
+}
+
+.price {
+    display: block;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the "Footer" section */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style the "Social Icons" section */
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align to the left */
+}
+
+.social-icons li {
+    margin-right: 20px; /* Adjust the spacing between icons */
+}
+
+.social-icons img {
+    width: 24px; /* Adjust the width to make the icons smaller */
+    height: 24px; /* Adjust the height to make the icons smaller */
+}
+
+/* Style the "Products" section */
+/* Style the "Products" section */
+/* Style the "Products" section */
+.products {
+    background-image: url('21.jpeg');
+    background-size: cover;
+    padding: 20px;
+}
+
+/* Add any additional styling you want for the products section here */
+.products h2 {
+    color: white; /* Example: Change the text color to white */
+}
+
+/* Right-align the product description text */
+.product-description {
+    text-align: center;
+}
+
+/* Style product images to make them smaller */
+.product-image img {
+    max-width: 100px; /* Adjust the maximum width to make the image smaller */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-left: 20px; /* Add some spacing between the text and image */
+    align-items: center;
+}
+
+
+/* Center-align the content in the contact section */
+.contact {
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 0px; /* Add some spacing below the text */
+}
+
+/* Style the "Get Started" button */
+.get-started-button {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underlines from links */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Hover effect for the button */
+.get-started-button:hover {
+    background-color: #333; /* Darker shade of black on hover */
+    margin-top: 50;
+}
